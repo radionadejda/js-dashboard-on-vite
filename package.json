@@ -1,6 +1,5 @@
 {
     "name": "js-dashboard-vite",
-    "private": true,
     "version": "0.0.0",
     "type": "module",
     "homepage": "https://radionadejda.github.io/js-dashboard-on-vite",
@@ -8,7 +7,7 @@
         "start": "vite",
         "build": "vite build",
         "preview": "vite preview",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d dist"
     },
     "repository": {
         "type": "git",
