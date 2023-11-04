@@ -5,5 +5,6 @@ export default {
     server: {
         port: 8080,
         hot: true
-    }
+    },
+    base: 'git+https://github.com/radionadejda/js-dashboard-on-vite.git'
 };
