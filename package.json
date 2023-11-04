@@ -3,12 +3,27 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
+    "homepage": "https://radionadejda.github.io/js-dashboard-on-vite",
     "scripts": {
-        "dev": "vite",
+        "start": "vite",
         "build": "vite build",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "deploy": "gh-pages -d build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/radionadejda/js-dashboard-on-vite.git"
     },
     "devDependencies": {
+        "bootstrap": "^5.3.2",
+        "chart.js": "^4.4.0",
+        "gh-pages": "^6.0.0",
+        "moment": "^2.29.4",
+        "sass": "^1.69.5",
         "vite": "^4.4.5"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.11.8",
+        "chart": "^0.1.2"
     }
 }
