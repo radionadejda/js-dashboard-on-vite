@@ -7,7 +7,7 @@ import Chart from 'chart.js/auto';
 
 let tasks = [
     {
-        title: 'задача 5',
+        title: 'задача 1',
         status: 'в процессе',
         priority: 'высокий',
         startDate: '2023-10-01',
